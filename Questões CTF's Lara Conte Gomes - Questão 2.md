@@ -31,6 +31,7 @@ Ao clicar no botão  ‘Launch Instance’, ele me deu um comando que coloquei n
 
 Ao fazer isso, a letra da música começou a aparecer. Ele mostrou o primeiro verso e depois o refrão. Quando terminou o refrão, apareceu 'Crowd: ', e estava esperando uma entrada do usuário, ou seja, eu devia digitar algo.
 Tentei apenas dar Enter no teclado mas o código apenas continuou a letra e não me mostrou a flag.
+
 Conversei com duas pessoas do time de Cibersegurança do Inatel (Instituto Nacional de Telecomunicações). Um deles me orientou a olhar atentamente o código para encontrar algo nele que pudesse me ajudar a resolver a questão.
 Não encontrando nada de errado, perguntei para o segundo integrante do time e ele me orientou em como resolver a questão.
 Eu devia olhar o seguinte trecho de código:
