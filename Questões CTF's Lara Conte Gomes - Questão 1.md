@@ -35,6 +35,8 @@ Dando uma olhada nessa nova janela, encontrei um campo escrito 'Application'. Ne
 #### _O que é uma string?_
 É uma sequência de caracteres (letras, números e/ou símbolos) muito utilizada em programação.
 
+Fonte: https://www.alura.com.br/artigos/strings-com-javascript-o-que-sao-e-como-manipular?srsltid=AfmBOoqrSgbcDq_psB5cK2vSOVAzGOjOSoExSjnryK7qMnluuZ8PjmND
+
 ![Local Cookies](https://github.com/lara-conte-gomes/escola_de_seguranca_cibernetica/blob/main/prints/Picture7.png?raw=true)
 
 ![Mensagem secreta](https://github.com/lara-conte-gomes/escola_de_seguranca_cibernetica/blob/main/prints/Picture8.png?raw=true)
