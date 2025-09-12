@@ -18,19 +18,26 @@ Ao baixar o código, abri ele no VSCode (Visual Studio Code), um editor de códi
 
 ![VSCode](https://github.com/lara-conte-gomes/escola_de_seguranca_cibernetica/blob/main/prints/Picture12.png?raw=true) 
 
-Para rodar o código, utilizei o WebShell do próprio PicoCTF. Ao clicar no botão  ‘Launch Instance’, ele me deu um comando que coloquei no WebShell:
+Para rodar o código, utilizei o WebShell do próprio PicoCTF. 
+
+#### _O que é um WebShell do PicoCTF?_
+É um ambiente de desenvolvimento shell Linux (interface Linux (Sistema Operacional) onde se pode colocar diversos comandos) baseado na Web, ou seja, não é necessário a instalação do Sistema Operacional Linux no computador, o acesso é feito por meio da Web. Muito utilizado para se resolver os desafios de CTF's.
+
+Fonte: https://status.picoctf.org/affected/webshell/
+
+Ao clicar no botão  ‘Launch Instance’, ele me deu um comando que coloquei no WebShell:
 
 > nc verbal-sleep.picoctf.net 59410
 
-Ao fazer isso, a letra da música começou a aparecer. Ele mostrou o primeiro verso e depois o refrão, quando terminou o refrão apareceu 'Crowd: ', e estava esperando uma entrada do usuário, ou seja, eu devia digitar algo.
+Ao fazer isso, a letra da música começou a aparecer. Ele mostrou o primeiro verso e depois o refrão. Quando terminou o refrão, apareceu 'Crowd: ', e estava esperando uma entrada do usuário, ou seja, eu devia digitar algo.
 Tentei apenas dar Enter no teclado mas o código apenas continuou a letra e não me mostrou a flag.
-Conversei com duas pessoas do time de Cibersegurança. Um deles me orientou a olhar atentamente o código para encontrar algo nele que pudesse me ajudar a resolver a questão.
+Conversei com duas pessoas do time de Cibersegurança do Inatel (Instituto Nacional de Telecomunicações). Um deles me orientou a olhar atentamente o código para encontrar algo nele que pudesse me ajudar a resolver a questão.
 Não encontrando nada de errado, perguntei para o segundo integrante do time e ele me orientou em como resolver a questão.
 Eu devia olhar o seguinte trecho de código:
 
 ![Trecho código](https://github.com/lara-conte-gomes/escola_de_seguranca_cibernetica/blob/main/prints/Picture13.png?raw=true)  
 
-Olhando esse trecho, ele me disse que, uma das formas de fazer com que o trecho secreto fosse mostrado, seria escrever algo, como por exemplo 'teste', mas que eu devia colocar ';' e escrever' RETURN 0(zero)' depois, pois assim eu iria conseguir fazer com que o código retornasse ao início que estava oculto.
+Olhando esse trecho, ele me disse que, uma das formas de fazer com que o trecho secreto fosse mostrado, seria escrever algo, como por exemplo 'teste', mas que eu devia colocar ';' e escrever' RETURN 0(zero)' depois, pois assim eu iria conseguir fazer com que o código retornasse ao início, que estava oculto anteriormente.
 
 ![Música no WebShell](https://github.com/lara-conte-gomes/escola_de_seguranca_cibernetica/blob/main/prints/Picture14.png?raw=true)  
 
