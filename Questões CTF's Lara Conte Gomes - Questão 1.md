@@ -21,7 +21,7 @@ Ao apertar o botão 'Launch Instance', mostra-se uma nova linha oculta onde se t
 
 ![Página Web](https://github.com/lara-conte-gomes/escola_de_seguranca_cibernetica/blob/main/prints/Picture4.png?raw=true)
 
-Para descobrir onde estão os cookies, pensei em inspecionar o site para ver o código fonte por trás dele. Para inspecionar, cliquei com o botão direito do mouse em qualquer lugar da tela do site. Ao fazer isso, abre-se uma janela.
+Para descobrir onde estão os cookies, pensei em inspecionar o site para ver o código fonte por trás dele. Para fazer isso, cliquei com o botão direito do mouse em qualquer lugar da tela do site. Ao fazer isso, abre-se uma janela.
 
 ![Botão Inspecionar](https://github.com/lara-conte-gomes/escola_de_seguranca_cibernetica/blob/main/prints/Picture5.png?raw=true)
 
@@ -48,7 +48,7 @@ Depois, pedi ajuda para o ChatGPT sobre o que seria esse tipo de string, pois nu
 > cGljb0NURntjMDBrMWVfbTBuc3Rlcl9sMHZlc19jMDBraWVzXzc4QjRDMzkwfQ==
 
 Com a URL decodificada, reconheci que se tratava de uma string que precisava ser decodificada pela Base64, porque ela utiliza certos caracteres específicos e '=' no final.
-Logo em seguida, abri o site [Base64](https://base64.guru/converter), coloquei a string no site e obtive a flag.
+Logo em seguida, abri o site [Base64](https://base64.guru/converter), coloquei a string e obtive a flag.
 
 ![Flag questão 1](https://github.com/lara-conte-gomes/escola_de_seguranca_cibernetica/blob/main/prints/Picture10.png?raw=true)
 
